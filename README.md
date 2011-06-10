@@ -46,6 +46,8 @@ I also implement the ConcurrentRule from [ConcurrentRule].
 TODO
 ----
 
-Implement classes implementing ITestListener for some common usecases like before/afterClass, ...
+* Implement classes implementing ITestListener for some common usecases like before/afterClass, ...
+* Make other ITestNGListeners possible
+* Add DependsOn attribute to the Rule annotation to make ordering possible
     
 [ConcurrentRule]: http://blog.mycila.com/2009/11/writing-your-own-junit-extensions-using.html
