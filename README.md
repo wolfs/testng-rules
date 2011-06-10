@@ -39,9 +39,9 @@ Consider the following test:
 The rule will then be executed (like an IHookable) instead of each method.
 
 In src/test there is also a SpringRule which works like using the AbstractTestNGSpringContextTests as
-a base class, but using composition (with Rules) instead of inheritance. An class then is the SpringRuleTest.
+a base class, but using composition (with Rules) instead of inheritance. An class using this rule is the SpringRuleTest.
 
-I also implement the ConcurrentRule from [ConcurrentRule].
+I also implemented the ConcurrentRule from [ConcurrentRule].
 
 TODO
 ----
